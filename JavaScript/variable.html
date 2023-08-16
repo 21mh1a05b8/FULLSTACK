@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+// 	 variables are containers for storing data
+// 	 4 ways:Automatically(they are automatically declared when first used )
+// var is globally Scoped,can be updated and redeclared in its scope(most preferable try to avoid it,it should be used in writing code for older browsers) 
+//let is block scoped(Variables declared inside a { } block cannot be accessed from outside the block) it can be updated bu cannot be redeclared
+// const block scoped used when the value is to be fixed or its also should not be changed it can be neither updated nor re-declared it must be initialized during declaration unlike let or var
+	var a;
+	a=10;
+	console.log(a);
+	var a=5;
+	console.log(a);//re-declaration
+	a=12;
+	console.log(a);//updation
+	let b;
+	b=10;
+	console.log(b);
+	// let b=5;
+	// console.log(b);//error coz b has already been declared
+	b=5;
+	console.log(b);
+	/*const c;
+	c="Kalyani";*/ //error coz const must be inistialzed during declaration
+	const c="Author"
+	console.log(c);
+	// c=5;
+	// console.log(c);//error cant update value for const
+	{
+		let b="updated throug block";
+		console.log(b);
+	}
+	console.log("Out block value is");
+	console.log(b);
+</script>
+</body>
+</html>

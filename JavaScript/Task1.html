@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		// var name="reka";
+		// name+=" ramya";
+		// name+=",geetha";
+		// document.write(name+"<br>");
+		// var a=10.23;
+		// document.write(typeof(a)+"<br>");
+		// document.write(typeof(name)+"<br>");
+		// var b;
+		// document.write(typeof(b)+"<br>");
+		// var c;
+		// c='abc'
+		// document.write(c+"<br>");
+		// var d;
+		// d+='abc';
+		// document.write(d+"<br>");
+		// var g=true;
+		// document.write(typeof(g)+"<br>");
+		// var arr=['hello',1,true]
+		// document.write(typeof(arr)+"<br>");
+		// document.write(arr+"<br>");
+		var trainee=[{
+			'name':'hari',
+			'rollno':'1234',
+			'branch':'CSE'
+		},
+		{
+
+			'name':'Kiran',
+			'rollno':'1233',
+			'branch':'EEE'
+		}]
+		/*console.log(trainee);
+		console.log(trainee[0].name);
+		console.log(trainee[1].name);*/
+		// for(var i=0;i<trainee.length;i++){
+		// 	 document.write(trainee[i].name,trainee[i].rollno,trainee[i].branch);
+		// 	 console.log(trainee[i]);
+			
+		// }
+		// document.write(trainee.length);
+		for (var i=0;i<trainee.length;i++)
+		{
+			for(const key in trainee[i])
+			{
+				// console.log(trainee[i][key]);
+				// document.write(trainee[i][key]+" ");
+				document.write(trainee[i][key]+"<br>");
+			}
+			
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<!-- 8 types of datatypes in javascript(nn ss bb u o)
+	1.NULL
+	2.NUmber
+	3.Boolean
+	4.Symbol
+	5.String
+	6.Bigint
+	7.Undefined
+	8.Object(it can contain an object,an array,a date)(non-primitive)(these are key value pairs) -->
+	<script type="text/javascript">
+		let a = null;
+		let b = 345;
+		let c = BigInt("22468543");//output lo number tarvatha n vasthundhi
+		let d = true;
+		let e = Symbol("This is a symbol");
+		let f = "Kalyani";
+		let g = undefined;
+		console.log(a,b,c,d,e,f,g);
+		console.log(typeof(a));
+		console.log(typeof(b));
+		console.log(typeof(c));
+		console.log(typeof(d));
+		console.log(typeof(e));
+		console.log(typeof(f));
+		console.log(typeof(g));
+		const details={
+			"name":"Kalyani",
+			"age":19,
+			"branch":"CSE"
+		}
+		console.log(details);
+		console.log(details["name"]);//acts like dictionary in python
+		console.log(details.age);
+		console.log(details["msmbsdjgyug"]);//undefined
+		const arr=[2,3,8,"hii"];
+		console.log(arr[2]);//like array
+		console.log(typeof(arr));
+		// details="abc";//const so cant change
+		details["College"]="ACOE";//we can add new items to object as detials will be in relation with these items so you can change or add but you cant assign new value to details as it is const 
+		console.log(details);
+		details["name"]="ABC";
+		console.log(details);
+		
+	</script>
+</body>
+</html>
