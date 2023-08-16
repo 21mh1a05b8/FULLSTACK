@@ -1,0 +1,29 @@
+#first{
+	color:red;
+}
+p{
+	color: blue;
+}
+#second
+{
+	color: pink;
+}
+.abc{
+	color:green;
+}
+.def
+{
+	color: greenyellow;
+}
+a[href]{
+	background-color: yellow;
+}
+input[type]{
+	font-family: cursive;
+}
+input[type="text"]{
+	color: blue;
+}
+input[type="email"]{
+	color: red;
+}                                                                                                                           

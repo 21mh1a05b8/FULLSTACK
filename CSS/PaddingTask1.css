@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#on
+#ParentDiv{
+	height: 400px;
+	width: 1390px;
+	background-color: grey;
+	margin: 10px;
+	padding: 60px;
+	font-size: 20px;
+}
+ediv{
+	height: 250px;
+	width: 1290px;
+	background-color: orangered;
+	margin: 7px;
+	padding: 60px;
+	font-size: 20px;
+}

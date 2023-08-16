@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="BootstrapTask1.css">
+  </head>
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+  			<div class="container"><h3>Company Name</h3></div>
+		</nav>
+	</header>
+	<div class="container container-1  text-start">
+		<div class="row">
+			<div class="col-md-5 col-sm-12">
+				<img src="img1.png" class="img-fluid mb-3  img-1">
+				<h1 class="p1">Create an account</h1>
+				<p class="p1 fst-italic fw-lighter mt-10">Create a minimal registeration page using Bootstrap 4 <br> HTML form elements.
+				<br>Snippet by <a href="#" class="text-muted">Bootstrapious</a></p>
+			</div>
+			<div class="col-md-7  col-sm-12">
+				<form action="#">
+					<div class="row r1">
+						<div class="col input-group">
+							<span class="input-group-text border rounded-0 border-dark border-1 border-end-0 bg-white"><i class="fa fa-user text-muted "></i></span>
+							<input type="text" class="form-control bg-white input-1 border border-start-0 rounded-0 border-dark border-1 " id="name" placeholder="FirstName" name="FirstName"> 
+						</div>
+						<div class="col input-group">
+							<span class="input-group-text border rounded-0 border-dark border-1 border-end-0 bg-white"><i class="fa fa-user text-muted "></i></span>
+							<input type="text" class="form-control input-1 border border-start-0 border-dark border-1 rounded-0" id="name" placeholder="LastName" name="LastName"></div>
+					</div>
+					<div class="row r1">
+						<div class="col input-group">
+							<span class="input-group-text border rounded-0 border-end-0 border-dark border-1 bg-white"><i class="fa fa-envelope text-muted"></i></span>
+							<input type="email" class="form-control bg-white input-1 border border-start-0 rounded-0 border-dark border-1" id="name" placeholder="Email" name="mail"> 
+						</div>
+					</div>
+					<div class="row r1">
+						<div class="col input-group">
+							<span class="input-group-text border  rounded-0 border-end-0 border-dark border-1 bg-white"> 
+								<i class="fa fa-phone-square text-muted"></i>
+							</span>
+							<select  class="bg-white border border-start-0 border-dark border-left-0 text-muted">
+                            	<option value="">+12</option>
+                            	<!-- <option value="">+10</option>
+                            	<option value="">+15</option>
+                            	<option value="">+18</option> -->
+                        	</select>
+							<input type="tel" class="form-control bg-white input-1 border border-start-0 rounded-0 border-dark border-1" id="phoneNumber" placeholder="Phone Number" name="phno"> 
+						</div>
+					</div>
+					<div class="row r1">
+						<div class="col input-group">
+							<span class="input-group-text border border-end-0 border-dark border-1 rounded-0 bg-white">
+								<i class="fa fa-black-tie text-muted"></i>
+							</span>
+							<select  class="form-control bg-white border border-start-0 rounded-0 border-dark text-muted">
+                            	<option value="">Choose your job</option>
+                            	<option value="">Choose your job</option>
+                        	</select>
+							<!-- <input type="email" class="form-control bg-white input-1 border  border-dark border-1" id="name" placeholder="Choose your job" name="mail">  -->
+						</div>
+					</div>
+					<div class="row r1">
+						<div class="col input-group">
+							<span class="input-group-text border rounded-0 border-end-0 border-dark border-1 bg-white">
+								<i class="fa fa-lock text-muted"></i>
+							</span>
+							<input type="password" class="form-control bg-white input-1 border rounded-0 border-dark border-1 border-start-0" id="name" placeholder="Password" name="Password">
+						</div>
+						<div class="col input-group">
+							<span class="input-group-text border rounded-0 border-end-0 border-dark border-1 bg-white">
+								<i class="fa fa-lock text-muted"></i>
+							</span>
+							<input type="password" class="form-control input-1 border border-start-0 rounded-0 border-dark border-1" id="name" placeholder="Confirm Password" name="LastName"></div>
+					</div>
+					<div class="row r1 r2">
+						<div class="col btn btn-primary btn-block ">
+							<a href="#" class="text-decoration-none"><span class="font-weight-bold text-white">Create your account</span></a>
+						</div>
+					</div>
+					<div class="row r1 r2">
+						<span class="s1"><hr width="50%">OR<hr width="50%"></span>
+					</div>
+					<div class="row r1 r2">
+						<div class="col btn btn-1 btn-block ">
+							<a href="#" class="text-decoration-none">
+								<i class="fa-brands fa-facebook text-white"></i>
+                            	<span class="font-weight-bold text-white a11">Continue with Facebook</span>
+                        	</a>
+						</div>
+					</div>
+					<div class="row r1 r2 r3">
+						<div class="col btn btn-2 btn-block text-decoration-none">
+							<a href="#" class="text-decoration-none">
+								<i class="fa-brands fa-twitter text-white"></i>
+								<span class="font-weight-bold text-white text-decoration-none">Continue with Twitter</span>
+                        	</a>
+						</div>
+					</div>
+					<p class="text-center">Already Registered?  <a href="#" class="ml-3 text-decoration-none">Login</a></p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

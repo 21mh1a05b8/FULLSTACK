@@ -1,0 +1,15 @@
+#abc{
+	font-size: 30px;
+	color: blue;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+}
+p{
+	font-family: cursive;
+}
+.abc{
+	color:green;
+}

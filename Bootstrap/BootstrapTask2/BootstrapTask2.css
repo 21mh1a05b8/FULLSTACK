@@ -1,0 +1,114 @@
+.c1{
+	background: #80808042;
+}
+.card{
+	padding-bottom: 0%;
+	position: relative;
+    width:100%;
+	
+}
+p{
+	padding-top: 0%;
+}
+.fa-pencil{
+	font-size: 276%;
+	position:absolute;
+	top:32%;
+	left:11%;
+}
+.fa-comment{
+	font-size: 276%;
+	position:absolute;
+	top:18%;
+	left:11%;
+
+}
+.fa-chart-line{
+	font-size: 276%;
+	position:absolute;
+	top:32%;
+	left:11%;
+
+}
+.fa-location-dot{
+	font-size: 276%;
+	position:absolute;
+	top:32%;
+	left:11%;
+	color: red;
+}
+.fa-rocket{
+	font-size: 276%;
+	position:absolute;
+	top:32%;
+	left:66%;
+
+}
+.fa-user{
+	font-size: 276%;
+	position:absolute;
+	top:32%;
+	left:66%;
+
+}
+.fa-chart-pie{
+	font-size: 276%;
+	position:absolute;
+	top:32%;
+	left:66%;
+
+}
+.fa-dharmachakra{
+	font-size: 276%;
+	position:absolute;
+	top:32%;
+	left:66%;
+}
+.progress{
+	height:8px;
+
+}
+.box1{
+	width:80%;
+	background: skyblue;
+}
+.fa-book-open{
+	font-size: 276%;
+	position:absolute;
+	top:24%;
+	left:66%;
+
+}
+.fa-comments{
+	font-size: 276%;
+	position:absolute;
+	top:24%;
+	left:66%;
+
+}
+.box2{
+	width:34%;
+	background: orange;
+}
+.fa-mug-hot{
+	font-size: 276%;
+	position:absolute;
+	top:24%;
+	left:66%;
+	color:#1c9d1cad;
+}
+.box3{
+	width:60%;
+	background: #1c9d1cad;
+}
+.fa-left-right{
+	font-size: 276%;
+	position:absolute;
+	top:24%;
+	left:66%;
+	color:red;
+}
+.box4{
+	width:40%;
+	background: red;
+}

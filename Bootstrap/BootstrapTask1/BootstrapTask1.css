@@ -1,0 +1,46 @@
+.container{
+	padding-left: 5%;
+}
+.container-1{
+	padding-top: 3%;
+	height: 60%;
+	width: 100%;
+}
+
+img{
+	height: 50%;
+	width: 100%;
+	margin-top: 2%;
+}
+.p1{
+	padding-left:11%;
+}
+.col-1{
+	border: 1px solid black;
+	border-radius: 0px;
+}
+.r1{
+	margin-top: 4%;
+}
+.r2{
+	margin-left:0.25%;
+	margin-right: 0.5%;
+}
+.s1{
+	display: flex;
+}
+hr{
+	opacity: 10.25;
+}
+.r3{
+	margin-top:1%;
+}
+.btn-1{
+	background-color: #405D9D;;
+}
+.btn-2{
+	background-color: #42AEEC;;
+}
+.a11{
+	text-decoration:none;
+}

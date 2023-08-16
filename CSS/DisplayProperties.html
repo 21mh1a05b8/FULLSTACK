@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		h1{
+			background-color: pink;
+			display: inline;/* default ga h1 block level elemnet so eh property to inline elemnt ga marsthunamu block ante unna available width antha use chesthundhi inline ante kavalsina antha width mathram eh use chesthundhi*/
+		}
+		span{
+			background-color: violet;
+			display: block;/* default inline we are changing to block */
+		}
+		.a{
+			height: 200px;
+			width: 200px;
+			border: 5px solid blue;
+			float: left;
+			display: none;/* eh property valla original ga 3 divs unnayi kada so browser lo ekada kanipinchadhu it will not effect dhi output space undahdhu ante 2 divs eh kanipisthayi */
+			visibility:hidden;/* idhi cheydam valla space alane untadhi ante output affect avuthadhi*/
+		}
+		.b{
+			height: 200px;
+			width: 200px;
+			border: 5px solid red;
+			float: left;
+		}
+		.c{
+			height: 200px;
+			width: 200px;
+			border: 5px solid green;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<h1>Heading</h1>
+	<span>Span tag</span>
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+</body>
+</html>

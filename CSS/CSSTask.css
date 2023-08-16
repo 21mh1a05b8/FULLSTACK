@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.parentdiv{
+	height: 600px;
+	width: 1400px;
+	margin: 50px;
+	background-color: lightgrey;
+}
+.onediv{
+	height: 430px;
+	width: 400px;
+	background-color: whitesmoke;
+	margin: 90px 30px 90px 70px;
+	float: left;
+	border-radius: 10%;
+	padding: 10px 30px;
+}
+.twodiv{
+	height: 430px;
+	width: 400px;
+	background-color: whitesmoke;
+	margin: 90px 30px 90px 0px;
+	float: left;
+	border-radius: 10%;
+	padding: 10px 30px;
+}
+.threediv{
+	height: 430px;
+	width: 400px;
+	background-color: whitesmoke;
+	margin: 90px 30px 90px 0px;
+	float: left;
+	border-radius: 10%;
+	padding: 10px 30px ;
+}
+h1{
+	padding: 58px 90px 0px 91px ;
+	font-size: 33px;
+}
+.p-one{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	font-size: 18px;
+	color: grey;
+}
+.p-two{
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-top: 10px;
+	font-size: 17px;
+	color: grey;
+}
+.p-three{
+	padding-left: 120px;
+	padding-right: 60px;
+	padding-top: 10px;
+	font-size: 17px;
+	color: grey;
+}
+.p-four{
+	border: 1px solid #1e88e5;
+	margin-top: 25px;
+}
+.p-five{
+	margin: 30px 80px 20px 80px;
+	padding: 10px 30px 10px 45px;
+	border:1px solid #1e88e5;
+	border-radius: 50PX;
+	background-color: #1e88e5;
+	font-size: 20px;
+	color: white;	
+}

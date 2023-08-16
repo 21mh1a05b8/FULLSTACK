@@ -1,0 +1,23 @@
+span{
+	border-style:solid ;
+	border-width: 3px;
+	border-color: green;
+	/*border-color: blue green yellow purple;*//*this is used to apply colors differently for each side
+	order is top right bottom left(clockwise) (if we use only two colors then it we aplly same color
+	to top and bottom and another color to left and right)*/
+	/*border-style:solid dashed dotted double;/* same as above like colors clockwise direction */
+	/*border-top-style: ridge;*//* to specify only for top*/
+	/*border-left-width: solid;
+	border-right-style: dashed;
+	border-bottom-style: dotted;
+	border-top-color: red;
+	border-radius: 30%;
+	border:2px dotted yellow;*//* its is called as border shorthand property order is (width style color) this is used as 
+	using all width stylw color all together */
+	/*border-left:2px dotted yellow;/* it will aplly on only one */
+	/* if we use shorthand and invidual both at once at bottom which one is there it will apply */ 
+	border-radius: 50px;
+	font-size: 30px;
+}
+
+
