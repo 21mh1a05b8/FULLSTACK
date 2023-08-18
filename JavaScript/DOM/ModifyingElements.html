@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.para{
+			border:1px dotted blue;
+		}
+		.p5{
+			font-family: cursive;
+		}
+	</style>
+</head>
+<body>
+	<p id="myid">Heading-2</p>
+	<img id="img1"src="">
+	<script type="text/javascript">
+		let i=document.getElementById('myid');
+		// i.innerHTML="HELLO WORLD";//heading-2 ni HELLO WORLD ga change chesthundhi
+		i.innerHTML="<h1>My World</h1> <p>HTML </p>";//indhulo manamu oka h1 tag ni use chesthunamu kabati inner.HTML vaduthunam ledante inner.text ani vadachu p tag ki badhulo MY World H1 tag lo display avuthundhi
+		//CSS change cheydam
+		i.style.backgroundColor="grey";
+		i.style.color="pink";
+		//you can also set attribute values
+		let d=document.getElementById('img1').src="1.jpg";
+		console.log(d);
+		d.height="160px";
+		d.width="500px";
+		//modifying class in HTML
+		i.classList.add('para');//direct ga p tag lo class name isthamu kada eh class lo unna properties apply avadaniki so manamu illa kuda add cheyachu a particular class or id or element ni find chesi add chyachu
+		i.classList.add('p5');
+		i.classList.remove('para');//eh class lo unnla propeties ni aplly cheyaddhu
+		i.classList.toggle('p5');//toggle ante okavela ah class apply ayyi undi unte adhi remove chesthadhi incase apply ayyi lekapothe adhi apply chesthadhi
+		i.classList.toggle('para');
+	</script>
+</body>
+</html>

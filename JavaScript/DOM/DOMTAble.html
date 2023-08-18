@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<!-- <body>
+	<table id="myTable" border="1"></table>
+	<script type="text/javascript">
+	var i=0;	 
+ for(var r=0;r<3;r++)
+  {
+
+   var x=document.getElementById('myTable').insertRow(r);
+   for(var c=0;c<3;c++)  
+    {
+     var y=  x.insertCell(c);
+     y.innerHTML=c+1+i; 
+    }
+    i=3*(r+1)
+   }
+	</script>
+</body> -->
+<body>
+	<table border="1">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<script type="text/javascript">
+		let tab=document.getElementsByTagName('td');
+		var k=9;
+		for(let i=0;i<=tab.length;i++)
+		{
+			tab[i].innerHTML=k;
+			k--;
+		}
+	</script>
+</body>
+</html>
